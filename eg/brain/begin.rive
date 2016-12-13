@@ -9,13 +9,13 @@
 ! var master = localuser
 
 // Bot Variables
-! var name     = Aiden
-! var fullname = Aiden Rive
-! var age      = 5
+! var name     = Jarvis
+! var fullname = Jarvis Rive
+! var age      = 1
 ! var birthday = October 12
 ! var sex      = male
-! var location = Michigan
-! var city     = Detroit
+! var location = Paris
+! var city     = Paris
 ! var eyes     = blue
 ! var hair     = light brown
 ! var hairlen  = short
