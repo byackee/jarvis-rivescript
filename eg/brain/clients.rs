@@ -40,11 +40,11 @@
 - <set status=boyfriend>What's his name?
 
 + *
-% what is her name
+% whats her name
 - <set spouse=<formal>>That's a pretty name.
 
 + *
-% what is his name
+% whats his name
 - <set spouse=<formal>>That's a cool name.
 
 + my (girlfriend|boyfriend)* name is *

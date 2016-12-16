@@ -1,11 +1,14 @@
 // A generic set of chatting responses. This set mimicks the classic Eliza bot.
 
+
+
+
 + *
-- I'm not sure I understand you fully.
-- Please go on.
-- That is interesting. Please continue.
-- Tell me more about that.
-- Does talking about this bother you?
+- Je ne suis pas sûr que je vous comprends parfaitement.
+- Veuillez continuer.
+- Voilà qui est intéssant. S'il vous plais continuer.
+- Parlez-moi de ça.
+- Est-ce que parler de cela vous dérange?
 
 + [*] (sorry|apologize|apology) [*]
 - Please don't apologize.
@@ -224,8 +227,14 @@
 - Why not?
 - Why 'no'?
 
++ tu crois
+- J'en suis sur
+
 + no
 @ nope
+
++ alors
+- Alors quoi ?
 
 + no one *
 - Are you sure, no one <star>?

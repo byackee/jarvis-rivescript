@@ -6,13 +6,3 @@
 # jv for JarVis
 # pg for PluGin
 # XX can be a two letters code for your plugin, ex: ww for Weather Wunderground
-jv_pg_pt_lunch()
-{
-while read device
-do
-if [[ "$1" == "$device" ]]; then
-prog="$(echo "$pourquand" | jq -r ".devices[] | select(.nom==\"$device\") | .voiciladate")"
-sh ./plugins/jarvis-progtv/fr/xmltv-tool.sh -p -j cesoir -C $prog ./plugins/jarvis-progtv/tnt.xml
-fi
-done <<< "$(echo "$pourquand" | jq -r '.devices[].nom')"
-}

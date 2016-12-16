@@ -12,17 +12,19 @@ For multi-language plugin:
 ## Description
 Ce plugin permet de dialoguer avec un bot
 
-Le bot utiliser est rivescript, pour le moment seul l'anglais est supporté.
-Il est impossible d'ajouter des nouvelles conversations
+Le bot utiliser est rivescript. Les langues actuellement supportés sont:
+  - Francais
+  - Aanglais
+
+Pour le moment il est impossible d'ajouter des nouvelles conversations
 
 ## Usage
 ```
 You: how old are you?
 Jarvis: I'am 1
-You: What is your name?
-Jarvis: My name is jarvis
+You: Quel est ton age?
+Jarvis: J'ai 34 ans
 ```
 
 ## Authors
-[Alex](https://github.com/alexylem)
 [Byackee](https://github.com/byackee)
