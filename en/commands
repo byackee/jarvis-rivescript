@@ -1,1 +1,1 @@
-*== say "$(python ./plugins/jarvis-rivescript/rivescript.py "$order")"
+*== say "$(python ./plugins/jarvis-rivescript/rivescripten.py "$order")"
